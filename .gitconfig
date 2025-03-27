@@ -1,0 +1,17 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+	useHttpPath = true
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = hiddenPaul
+	email = paul@hiddenin.site
+[core]
+	editor = vim
+	excludesfile = /home/hiddenpaul/.globalgitignore
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false

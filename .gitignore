@@ -1,0 +1,9 @@
+*
+
+
+#Globals
+
+## Git
+!.gitconfig
+!.globalgitignore
+!.gitignore
