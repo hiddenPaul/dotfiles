@@ -1,11 +1,20 @@
 *
 
 
+# Top level directories
+!.local/
+!.local/share/
+
+
 #Globals
 
 ## Bash
 !.bashrc
 !.bash_aliases
+
+## Fonts
+!.local/share/fonts/
+!.local/share/fonts/**
 
 ## Git
 !.gitconfig
