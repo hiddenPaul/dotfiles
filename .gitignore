@@ -3,6 +3,10 @@
 
 #Globals
 
+## Bash
+!.bashrc
+!.bash_aliases
+
 ## Git
 !.gitconfig
 !.globalgitignore
