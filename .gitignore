@@ -8,6 +8,9 @@
 
 #Globals
 
+## ASDF
+!.tool-versions
+
 ## Bash
 !.bashrc
 !.bash_aliases
