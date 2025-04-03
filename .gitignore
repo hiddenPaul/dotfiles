@@ -43,3 +43,8 @@
 !.tmux/24-bit-color.sh
 !.config/tmux-powerline/
 !.config/tmux-powerline/**
+
+## WezTerm
+!.config/wezterm/
+!.config/wezterm/**
+!.wezterm.lua
