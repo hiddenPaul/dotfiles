@@ -2,8 +2,10 @@
 
 
 # Top level directories
+!.config/
 !.local/
 !.local/share/
+!.tmux/
 
 
 #Globals
@@ -32,3 +34,12 @@
 ## Python
 !.requirements
 !.requirements-base
+
+
+#Applications
+
+## TMUX
+!.tmux.conf
+!.tmux/24-bit-color.sh
+!.config/tmux-powerline/
+!.config/tmux-powerline/**
