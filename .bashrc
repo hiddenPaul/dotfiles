@@ -110,8 +110,9 @@ fi
 eval "$(direnv hook bash)"
 
 # asdf hooks
-. "$HOME/.asdf/asdf.sh"
-. "$HOME/.asdf/completions/asdf.bash"
+export ASDF_DATA_DIR="$HOME/.asdf"
+# . "$HOME/.asdf/asdf.sh"
+# . "$HOME/.asdf/completions/asdf.bash"
 
 # autostart base venv
 if (tty -s); then
@@ -119,7 +120,7 @@ if (tty -s); then
 fi
 
 # export dirs to $PATH
-export PATH="~/.config/emacs/bin:$(yarn global bin):~/.local/bin:$PATH"
+export PATH="~/.config/emacs/bin:$(yarn global bin):$ASDF_DATA_DIR/shims:~/.local/bin:$PATH"
 
 # init zoxide
 eval "$(zoxide init bash)"
