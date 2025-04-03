@@ -38,6 +38,10 @@
 
 #Applications
 
+## BTOP
+!.config/btop/
+!.config/btop/**
+
 ## TMUX
 !.tmux.conf
 !.tmux/24-bit-color.sh
