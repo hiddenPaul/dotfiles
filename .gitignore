@@ -24,6 +24,11 @@
 !.globalgitignore
 !.gitignore
 
+## Node
+!.config/yarn/
+!.config/yarn/global
+!.config/yarn/global/package.json
+
 ## Python
 !.requirements
 !.requirements-base

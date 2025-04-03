@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@quasar/cli": "^2.4.1",
+    "@quasar/icongenie": "^4.0.0",
+    "create-astro": "^4.9.0",
+    "create-next-app": "^14.2.11",
+    "create-quasar": "^1.9.3",
+    "neovim": "^5.2.0",
+    "tree-sitter-cli": "^0.23.0",
+    "vercel": "^39.0.5"
+  }
+}
