@@ -23,3 +23,7 @@
 !.gitconfig
 !.globalgitignore
 !.gitignore
+
+## Python
+!.requirements
+!.requirements-base
