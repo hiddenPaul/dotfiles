@@ -38,6 +38,10 @@
 
 #Applications
 
+## AstroNvim
+!.config/nvim/
+!.config/nvim/**
+
 ## BTOP
 !.config/btop/
 !.config/btop/**
